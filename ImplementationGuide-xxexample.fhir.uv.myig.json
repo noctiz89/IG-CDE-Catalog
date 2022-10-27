@@ -11,7 +11,7 @@
   "title": "My IG for Common Data Elements Catalog",
   "status": "draft",
   "experimental": false,
-  "date": "2022-10-27T13:02:34+00:00",
+  "date": "2022-10-27T14:48:49+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -334,6 +334,34 @@
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      }
+    ],
+    "resource": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:logical"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/human-being-logical-model"
+        },
+        "name": "Human Being",
+        "description": "A member of the Homo sapiens species."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:logical"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/family-member"
+        },
+        "name": "Family Member",
+        "description": "A reference to a family member (not necessarily biologically related)."
       }
     ],
     "page": {

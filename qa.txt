@@ -1,16 +1,47 @@
 ﻿XXYourComputableMyIGNameHere : Validation Results
 =========================================
 
-err = 1, warn = 4, info = 0
+err = 6, warn = 26, info = 0
 IG Publisher Version: 1.2.11
-Generated Thu Oct 27 13:02:43 UTC 2022. FHIR version 4.0.1 for xxexample.fhir.uv.myig#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
+Generated Thu Oct 27 14:48:57 UTC 2022. FHIR version 4.0.1 for xxexample.fhir.uv.myig#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
  Build Errors : 0 / 4 / 0
- /github/workspace/input/myig : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-family-member : 4 / 6 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-human-being-logical-model : 2 / 16 / 1
+ /github/workspace/input/myig : 0 / 0 / 1
 </table>
 == n/a ==
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: The HTML fragment 'cross-version-analysis.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 3: The HTML fragment 'dependency-table.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/StructureDefinition-family-member.json ==
+ERROR: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/family-member'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-family-member.json - the canonical URL (http://xxsomewhere.org/fhir/myig/StructureDefinition/family-member) does not match the URL (http://example.com/fhir/example/StructureDefinition/family-member)
+WARNING: StructureDefinition/family-member: StructureDefinition.snapshot.element[0]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/family-member: StructureDefinition.snapshot.element[1]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/family-member: StructureDefinition.snapshot.element[2]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/family-member: StructureDefinition.differential.element[0]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/family-member: StructureDefinition.differential.element[1]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/family-member: StructureDefinition.differential.element[2]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+ERROR: StructureDefinition/family-member: StructureDefinition.differential.element[1].type[0].targetProfile[0]: Profile http://example.com/fhir/example/StructureDefinition/human-being-logical-model is for type StructureDefinition[http://example.com/fhir/example/StructureDefinition/human-being-logical-model], which is not a Resource (which is required because the family-member.human element has type Reference)
+ERROR: StructureDefinition/family-member: StructureDefinition.snapshot.element[1].type[0].targetProfile[0]: Profile http://example.com/fhir/example/StructureDefinition/human-being-logical-model is for type StructureDefinition[http://example.com/fhir/example/StructureDefinition/human-being-logical-model], which is not a Resource (which is required because the family-member.human element has type Reference)
+ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-family-member: URL Mismatch http://xxsomewhere.org/fhir/myig/StructureDefinition/family-member vs http://example.com/fhir/example/StructureDefinition/family-member
+== fsh-generated/resources/StructureDefinition-human-being-logical-model.json ==
+ERROR: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/human-being-logical-model'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-human-being-logical-model.json - the canonical URL (http://xxsomewhere.org/fhir/myig/StructureDefinition/human-being-logical-model) does not match the URL (http://example.com/fhir/example/StructureDefinition/human-being-logical-model)
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.snapshot.element[0]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.snapshot.element[1]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.snapshot.element[2]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.snapshot.element[3]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.snapshot.element[4]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.snapshot.element[5]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.snapshot.element[6]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.snapshot.element[7]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.differential.element[0]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.differential.element[1]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.differential.element[2]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.differential.element[3]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.differential.element[4]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.differential.element[5]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.differential.element[6]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.differential.element[7]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-human-being-logical-model: URL Mismatch http://xxsomewhere.org/fhir/myig/StructureDefinition/human-being-logical-model vs http://example.com/fhir/example/StructureDefinition/human-being-logical-model
 == input/myig.xml ==
-ERROR: ImplementationGuide/xxexample.fhir.uv.myig: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide)
