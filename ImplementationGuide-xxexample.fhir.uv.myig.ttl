@@ -10,16 +10,16 @@
   fhir:Resource.id [ fhir:value "xxexample.fhir.uv.myig"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Common Data Element Catalog IG</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>Empty Implementation Guide for starting with Common Data Elements Catalog</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CommonDataElementCatalog_IG</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>Empty Implementation Guide for starting with Common Data Elements Catalog</p>\n</div></div>"
   ];
   fhir:ImplementationGuide.url [ fhir:value "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig"];
   fhir:ImplementationGuide.version [ fhir:value "0.1.0-test"];
-  fhir:ImplementationGuide.name [ fhir:value "Common Data Element Catalog IG"];
-  fhir:ImplementationGuide.title [ fhir:value "My IG for Common Data Elements Catalog"];
+  fhir:ImplementationGuide.name [ fhir:value "CommonDataElementCatalog_IG"];
+  fhir:ImplementationGuide.title [ fhir:value "Implementation Guide for Common Data Element Catalog"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2022-10-27T19:07:24+00:00"^^xsd:dateTime];
-  fhir:ImplementationGuide.publisher [ fhir:value "xxxYour Work Group"];
+  fhir:ImplementationGuide.date [ fhir:value "2022-10-27T19:42:49+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.publisher [ fhir:value "Masterthesis"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
@@ -723,7 +723,7 @@
            fhir:Extension.valueUrl [ fhir:value "index.html" ]
          ];
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "MyIG Home Page" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Common Data Elements Catalog" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
        ], [
          fhir:index 1;
