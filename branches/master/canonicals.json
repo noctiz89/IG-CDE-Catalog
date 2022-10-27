@@ -1,5 +1,19 @@
 [
   {
+    "id": "family-member",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/family-member",
+    "version": "0.1.0-test",
+    "name": "FamilyMember"
+  },
+  {
+    "id": "human-being-logical-model",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/human-being-logical-model",
+    "version": "0.1.0-test",
+    "name": "Human"
+  },
+  {
     "id": "xxexample.fhir.uv.myig",
     "type": "ImplementationGuide",
     "url": "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",

@@ -12,7 +12,7 @@
   <title value="My IG for Common Data Elements Catalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-10-27T13:02:34+00:00"/>
+  <date value="2022-10-27T14:48:49+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -212,6 +212,26 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/human-being-logical-model"/>
+      </reference>
+      <name value="Human Being"/>
+      <description value="A member of the Homo sapiens species."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/family-member"/>
+      </reference>
+      <name value="Family Member"/>
+      <description value="A reference to a family member (not necessarily biologically related)."/>
+    </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
         <valueUrl value="toc.html"/>

@@ -1,0 +1,16 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"human-being-logical-model","human-being-logical-model","","","",0,*,"","","","","Human Being","A member of the Homo sapiens species.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"human-being-logical-model.name","human-being-logical-model.name","","","",0,*,"","","Y","HumanName {[]} {[]}
+","Name(s) of the human","The names by which the human is or has been known","","","","","","","","","",,,,,"",,,,"human-being-logical-model.name",0,*,"",""
+"human-being-logical-model.birthDate","human-being-logical-model.birthDate","","","",0,1,"","","Y","dateTime {[]} {[]}
+","The date of birth, if known","The date on which the person was born. Approximations may be used if exact date is unknown.","","","","","","","","","",,,,,"",,,,"human-being-logical-model.birthDate",0,1,"",""
+"human-being-logical-model.deceased[x]","human-being-logical-model.deceased[x]","","","",0,1,"","","Y","boolean {[]} {[]}
+dateTime {[]} {[]}Age {[]} {[]}","Indication if the human is deceased","An indication if the human has died. Boolean should not be used if date or age at death are known.","","","","","","","","","",,,,,"",,,,"human-being-logical-model.deceased[x]",0,1,"",""
+"human-being-logical-model.family","human-being-logical-model.family","","","",0,1,"","","","BackboneElement {[]} {[]}
+","Family","Members of the human's immediate family.","","","","","","","","","",,,,,"",,,,"human-being-logical-model.family",0,1,"",""
+"human-being-logical-model.family.mother","human-being-logical-model.family.mother","","","",0,2,"","","","http://example.com/fhir/example/StructureDefinition/family-member {[]} {[]}
+","Mother","Biological mother, current adoptive mother, or both.","","","","","","","","","",,,,,"",,,,"human-being-logical-model.family.mother",0,2,"",""
+"human-being-logical-model.family.father","human-being-logical-model.family.father","","","",0,2,"","","","http://example.com/fhir/example/StructureDefinition/family-member {[]} {[]}
+","Father","Biological father, current adoptive father, or both.","","","","","","","","","",,,,,"",,,,"human-being-logical-model.family.father",0,2,"",""
+"human-being-logical-model.family.sibling","human-being-logical-model.family.sibling","","","",0,*,"","","","http://example.com/fhir/example/StructureDefinition/family-member {[]} {[]}
+","Sibling","Other children of the human's mother and/or father.","","","","","","","","","",,,,,"",,,,"human-being-logical-model.family.sibling",0,*,"",""
