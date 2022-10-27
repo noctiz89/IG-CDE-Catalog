@@ -18,6 +18,6 @@
     "type": "ImplementationGuide",
     "url": "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
     "version": "0.1.0-test",
-    "name": "Common Data Element Catalog IG"
+    "name": "CommonDataElementCatalog_IG"
   }
 ]
