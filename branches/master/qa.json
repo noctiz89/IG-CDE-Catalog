@@ -3,7 +3,7 @@
   "name": "Common Data Element Catalog IG",
   "package-id": "xxexample.fhir.uv.myig",
   "ig-ver": "0.1.0-test",
-  "date": "Thu, 27 Oct, 2022 18:35:25 +0000",
+  "date": "Thu, 27 Oct, 2022 18:36:49 +0000",
   "errs": 6,
   "warnings": 27,
   "hints": 0,
