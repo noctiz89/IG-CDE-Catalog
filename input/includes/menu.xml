@@ -8,18 +8,18 @@
 	</li>
 
 	<li class="dropdown">
-		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Background<b class="caret"></b>
+		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Hintergrund<b class="caret"></b>
 		</a>
 
 	</li>
 	<li class="dropdown">
-		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Functional Description<b class="caret"></b>
+		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Funktionelle Beschreibung<b class="caret"></b>
 		</a>
 
 	</li>
 
 	<li class="dropdown">
-		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Specifications<b class="caret"></b>
+		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Spezifikationen<b class="caret"></b>
 		</a>
 		<ul class="dropdown-menu">
 			<li>
