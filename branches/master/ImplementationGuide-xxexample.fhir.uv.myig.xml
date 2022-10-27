@@ -12,7 +12,7 @@
   <title value="Implementation Guide for Common Data Elements Catalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-10-27T22:10:40+00:00"/>
+  <date value="2022-10-27T22:16:40+00:00"/>
   <publisher value="Masterthesis University Leipzig"/>
   <contact>
     <telecom>
@@ -459,8 +459,8 @@
       <reference>
         <reference value="StructureDefinition/human-being-logical-model"/>
       </reference>
-      <name value="Human Being"/>
-      <description value="A member of the Homo sapiens species."/>
+      <name value="Menschliches Wesen"/>
+      <description value="Ein Mitglied der Spezies Homo sapiens."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -469,8 +469,8 @@
       <reference>
         <reference value="StructureDefinition/family-member"/>
       </reference>
-      <name value="Family Member"/>
-      <description value="A reference to a family member (not necessarily biologically related)."/>
+      <name value="Familienmitglied"/>
+      <description value="Ein Verweis auf ein Familienmitglied (nicht unbedingt biologisch verwandt)."/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

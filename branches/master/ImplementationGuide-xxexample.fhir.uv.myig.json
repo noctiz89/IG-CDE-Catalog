@@ -11,7 +11,7 @@
   "title": "Implementation Guide for Common Data Elements Catalog",
   "status": "draft",
   "experimental": false,
-  "date": "2022-10-27T22:10:40+00:00",
+  "date": "2022-10-27T22:16:40+00:00",
   "publisher": "Masterthesis University Leipzig",
   "contact": [
     {
@@ -737,8 +737,8 @@
         "reference": {
           "reference": "StructureDefinition/human-being-logical-model"
         },
-        "name": "Human Being",
-        "description": "A member of the Homo sapiens species."
+        "name": "Menschliches Wesen",
+        "description": "Ein Mitglied der Spezies Homo sapiens."
       },
       {
         "extension": [
@@ -750,8 +750,8 @@
         "reference": {
           "reference": "StructureDefinition/family-member"
         },
-        "name": "Family Member",
-        "description": "A reference to a family member (not necessarily biologically related)."
+        "name": "Familienmitglied",
+        "description": "Ein Verweis auf ein Familienmitglied (nicht unbedingt biologisch verwandt)."
       }
     ],
     "page": {
