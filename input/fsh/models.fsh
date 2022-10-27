@@ -11,3 +11,11 @@ Description:    "A member of the Homo sapiens species."
   * mother 0..2 FamilyMember "Mother" "Biological mother, current adoptive mother, or both."
   * father 0..2 FamilyMember "Father" "Biological father, current adoptive father, or both."
   * sibling 0..* FamilyMember "Sibling" "Other children of the human's mother and/or father."
+
+Logical:        FamilyMember
+Id:             family-member
+Title:          "Family Member"
+Description:    "A reference to a family member (not necessarily biologically related)."
+* human 1..1 SU Reference(Human) "Family member" "A reference to the human family member"
+* biological 0..1 boolean "Biologically related?"
+    "A family member may not be biologically related due to adoption, blended families, etc."
