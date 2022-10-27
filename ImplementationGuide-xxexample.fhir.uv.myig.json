@@ -11,7 +11,7 @@
   "title": "Implementation Guide for Common Data Element Catalog",
   "status": "draft",
   "experimental": false,
-  "date": "2022-10-27T19:48:51+00:00",
+  "date": "2022-10-27T20:00:04+00:00",
   "publisher": "Masterthesis",
   "contact": [
     {
@@ -762,7 +762,7 @@
         }
       ],
       "nameUrl": "toc.html",
-      "title": "Table of Contents",
+      "title": "Index",
       "generation": "html",
       "page": [
         {
