@@ -9,10 +9,10 @@
   <url value="http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig"/>
   <version value="0.1.0-test"/>
   <name value="XXYourComputableMyIGNameHere"/>
-  <title value="xxYour User Friendly Name for MyIG Here"/>
+  <title value="My IG for Common Data Elements Catalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-10-27T13:00:59+00:00"/>
+  <date value="2022-10-27T13:02:34+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
