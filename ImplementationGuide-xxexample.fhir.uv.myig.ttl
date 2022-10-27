@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "Implementation Guide for Common Data Elements Catalog"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2022-10-27T22:10:40+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-10-27T22:16:40+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Masterthesis University Leipzig"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -690,8 +690,8 @@
          fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/human-being-logical-model>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/human-being-logical-model" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Human Being" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A member of the Homo sapiens species." ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Menschliches Wesen" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ein Mitglied der Spezies Homo sapiens." ]
      ], [
        fhir:index 1;
        fhir:Element.extension [
@@ -703,8 +703,8 @@
          fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/family-member>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/family-member" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Family Member" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A reference to a family member (not necessarily biologically related)." ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Familienmitglied" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ein Verweis auf ein Familienmitglied (nicht unbedingt biologisch verwandt)." ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:Element.extension [
