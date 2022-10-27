@@ -44,7 +44,7 @@
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->
       <nameUrl value="toc.html"/>
-      <title value="Index"/>
+      <title value="Inhaltsverzeichnis"/>
       <generation value="html"/>
       <page>
         <nameUrl value="index.html"/>
@@ -61,7 +61,7 @@
     <!-- copyright year is a mandatory parameter -->
     <parameter>
       <code value="copyrightyear"/>
-      <value value="2019+"/>
+      <value value="2022+"/>
     </parameter>
     <!-- releaselabel should be the ballot status for HL7-published IGs. -->
     <parameter>
