@@ -1,4 +1,4 @@
-mytest-IG
+Implementation Guide for an Common Data Elements Catalog
 ---
 This is an empty IG
 <br> </br>
