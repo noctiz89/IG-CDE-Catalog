@@ -12,7 +12,7 @@
   <title value="Implementation Guide for Common Data Elements Catalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-10-27T20:31:30+00:00"/>
+  <date value="2022-10-27T20:43:04+00:00"/>
   <publisher value="Masterthesis University Leipzig"/>
   <contact>
     <telecom>
@@ -27,7 +27,7 @@
       <code value="001"/>
     </coding>
   </jurisdiction>
-  <packageId value="xxexample.fhir.uv.myig"/>
+  <packageId value="ig-cde-catalog"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="hl7tx">
