@@ -3,17 +3,17 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="xxexample.fhir.uv.myig"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>CommonDataElementCatalog_IG</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>Empty Implementation Guide for starting with Common Data Elements Catalog</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>CommonDataElementsCatalog_IG</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>Empty Implementation Guide for starting with Common Data Elements Catalog</p>
 </div></div>
   </text>
   <url value="http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig"/>
   <version value="0.1.0-test"/>
-  <name value="CommonDataElementCatalog_IG"/>
-  <title value="Implementation Guide for Common Data Element Catalog"/>
+  <name value="CommonDataElementsCatalog_IG"/>
+  <title value="Implementation Guide for Common Data Elements Catalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-10-27T20:07:25+00:00"/>
-  <publisher value="Masterthesis"/>
+  <date value="2022-10-27T20:24:15+00:00"/>
+  <publisher value="Masterthesis University Leipzig"/>
   <contact>
     <telecom>
       <system value="url"/>

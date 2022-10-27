@@ -3,16 +3,16 @@
   "id": "xxexample.fhir.uv.myig",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CommonDataElementCatalog_IG</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>Empty Implementation Guide for starting with Common Data Elements Catalog</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CommonDataElementsCatalog_IG</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>Empty Implementation Guide for starting with Common Data Elements Catalog</p>\n</div></div>"
   },
   "url": "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
   "version": "0.1.0-test",
-  "name": "CommonDataElementCatalog_IG",
-  "title": "Implementation Guide for Common Data Element Catalog",
+  "name": "CommonDataElementsCatalog_IG",
+  "title": "Implementation Guide for Common Data Elements Catalog",
   "status": "draft",
   "experimental": false,
-  "date": "2022-10-27T20:07:25+00:00",
-  "publisher": "Masterthesis",
+  "date": "2022-10-27T20:24:15+00:00",
+  "publisher": "Masterthesis University Leipzig",
   "contact": [
     {
       "telecom": [

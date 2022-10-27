@@ -1,9 +1,9 @@
 {
   "url": "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
-  "name": "CommonDataElementCatalog_IG",
+  "name": "CommonDataElementsCatalog_IG",
   "package-id": "xxexample.fhir.uv.myig",
   "ig-ver": "0.1.0-test",
-  "date": "Thu, 27 Oct, 2022 20:07:25 +0000",
+  "date": "Thu, 27 Oct, 2022 20:24:15 +0000",
   "errs": 6,
   "warnings": 26,
   "hints": 0,
