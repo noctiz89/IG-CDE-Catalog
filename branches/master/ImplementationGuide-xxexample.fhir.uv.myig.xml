@@ -12,7 +12,7 @@
   <title value="Implementation Guide for Common Data Element Catalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-10-27T19:48:51+00:00"/>
+  <date value="2022-10-27T20:00:04+00:00"/>
   <publisher value="Masterthesis"/>
   <contact>
     <telecom>
@@ -477,7 +477,7 @@
         <valueUrl value="toc.html"/>
       </extension>
       <nameUrl value="toc.html"/>
-      <title value="Table of Contents"/>
+      <title value="Index"/>
       <generation value="html"/>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
