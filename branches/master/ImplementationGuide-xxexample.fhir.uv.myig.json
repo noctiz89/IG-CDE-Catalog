@@ -8,10 +8,10 @@
   "url": "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
   "version": "0.1.0-test",
   "name": "XXYourComputableMyIGNameHere",
-  "title": "xxYour User Friendly Name for MyIG Here",
+  "title": "My IG for Common Data Elements Catalog",
   "status": "draft",
   "experimental": false,
-  "date": "2022-10-27T13:00:59+00:00",
+  "date": "2022-10-27T13:02:34+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
