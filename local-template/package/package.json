@@ -1,6 +1,6 @@
 {
     "name": "myorg.fhir.mytemplate",
-    "version": "0.0.1",
+    "version": "1.2.11",
     "type": "fhir.template",
     "license": "CC0-1.0",
     "description": "Local template extension for FHIR IG",
