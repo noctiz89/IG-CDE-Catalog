@@ -11,7 +11,7 @@
   "title": "Implementation Guide for Common Data Element Catalog",
   "status": "draft",
   "experimental": false,
-  "date": "2022-10-27T20:00:04+00:00",
+  "date": "2022-10-27T20:07:25+00:00",
   "publisher": "Masterthesis",
   "contact": [
     {
@@ -773,7 +773,7 @@
             }
           ],
           "nameUrl": "index.html",
-          "title": "Common Data Elements Catalog",
+          "title": "Übersicht",
           "generation": "html"
         },
         {

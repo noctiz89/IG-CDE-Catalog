@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "Human"];
   fhir:StructureDefinition.title [ fhir:value "Human Being"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-10-27T20:00:04+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-10-27T20:07:25+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Masterthesis"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
