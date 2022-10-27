@@ -20,7 +20,7 @@
       <value value="http://xxhl7.org/Special/committees/[something]"/>
     </telecom>
   </contact>
-  <description value="xxxA brief description of what this IG is about "/>
+  <description value="Empty Implementation Guide for starting with Common Data Elements Catalog "/>
   <jurisdiction>
     <!-- This will drive SNOMED release used -->
     <coding>
