@@ -7,10 +7,10 @@
 "human-being-logical-model.deceased[x]","human-being-logical-model.deceased[x]","","","",0,1,"","","Y","boolean {[]} {[]}
 dateTime {[]} {[]}Age {[]} {[]}","Indication if the human is deceased","An indication if the human has died. Boolean should not be used if date or age at death are known.","","","","","","","","","",,,,,"",,,,"human-being-logical-model.deceased[x]",0,1,"",""
 "human-being-logical-model.family","human-being-logical-model.family","","","",0,1,"","","","BackboneElement {[]} {[]}
-","Family","Members of the human's immediate family.","","","","","","","","","",,,,,"",,,,"human-being-logical-model.family",0,1,"",""
+","Familie","Members of the human's immediate family.","","","","","","","","","",,,,,"",,,,"human-being-logical-model.family",0,1,"",""
 "human-being-logical-model.family.mother","human-being-logical-model.family.mother","","","",0,2,"","","","http://example.com/fhir/example/StructureDefinition/family-member {[]} {[]}
-","Mother","Biological mother, current adoptive mother, or both.","","","","","","","","","",,,,,"",,,,"human-being-logical-model.family.mother",0,2,"",""
+","Mutter","Biologische Mutter, derzeitige Adoptivmutter oder beides.","","","","","","","","","",,,,,"",,,,"human-being-logical-model.family.mother",0,2,"",""
 "human-being-logical-model.family.father","human-being-logical-model.family.father","","","",0,2,"","","","http://example.com/fhir/example/StructureDefinition/family-member {[]} {[]}
-","Father","Biological father, current adoptive father, or both.","","","","","","","","","",,,,,"",,,,"human-being-logical-model.family.father",0,2,"",""
+","Biologischer Vater, derzeitiger Adoptivvater oder beides.","Biologischer Vater, derzeitiger Adoptivvater oder beides.","","","","","","","","","",,,,,"",,,,"human-being-logical-model.family.father",0,2,"",""
 "human-being-logical-model.family.sibling","human-being-logical-model.family.sibling","","","",0,*,"","","","http://example.com/fhir/example/StructureDefinition/family-member {[]} {[]}
-","Sibling","Other children of the human's mother and/or father.","","","","","","","","","",,,,,"",,,,"human-being-logical-model.family.sibling",0,*,"",""
+","Geschwister","Andere Kinder der Mutter und/oder des Vaters des Menschen.","","","","","","","","","",,,,,"",,,,"human-being-logical-model.family.sibling",0,*,"",""
