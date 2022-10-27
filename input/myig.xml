@@ -8,11 +8,11 @@
   <url value="http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig"/>
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
   <version value="0.1.0-test"/>
-  <name value="Common Data Element Catalog IG"/>
-  <title value="My IG for Common Data Elements Catalog"/>
+  <name value="CommonDataElementCatalog_IG"/>
+  <title value="Implementation Guide for Common Data Element Catalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <publisher value="xxxYour Work Group"/>
+  <publisher value="Masterthesis"/>
   <contact>
     <telecom>
       <!-- Or whatever URL and/or email address(es) are appropriate -->
@@ -48,7 +48,7 @@
       <generation value="html"/>
       <page>
         <nameUrl value="index.html"/>
-        <title value="MyIG Home Page"/>
+        <title value="Common Data Elements Catalog"/>
         <generation value="html"/>
       </page>
     <!-- change history page -->
