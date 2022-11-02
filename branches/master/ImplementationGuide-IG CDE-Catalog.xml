@@ -12,7 +12,7 @@
   <title value="Implementation Guide for Common Data Elements Catalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-11-02T08:59:34+00:00"/>
+  <date value="2022-11-02T09:54:31+00:00"/>
   <publisher value="Masterthesis University Leipzig"/>
   <contact>
     <telecom>
@@ -485,6 +485,14 @@
         </extension>
         <nameUrl value="index.html"/>
         <title value="Übersicht"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="object.html"/>
+        </extension>
+        <nameUrl value="object.html"/>
+        <title value="Gegenstand"/>
         <generation value="html"/>
       </page>
       <page>
