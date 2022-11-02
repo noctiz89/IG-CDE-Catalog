@@ -51,6 +51,11 @@
         <title value="Übersicht"/>
         <generation value="html"/>
       </page>
+      <page>
+        <nameUrl value="object.html"/>
+        <title value="Gegenstand"/>
+        <generation value="html"/>
+      </page>
     <!-- change history page -->
       <page>
         <nameUrl value="changes.html"/>
