@@ -1,13 +1,13 @@
 ﻿CommonDataElementsCatalog_IG : Validation Results
 =========================================
 
-err = 13, warn = 32, info = 0
+err = 17, warn = 32, info = 0
 IG Publisher Version: 1.2.12
-Generated Wed Nov 02 08:45:50 UTC 2022. FHIR version 4.0.1 for ig-cde-catalog#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
+Generated Wed Nov 02 08:59:46 UTC 2022. FHIR version 4.0.1 for ig-cde-catalog#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
  Build Errors : 80 / 5 / 0
  /github/workspace/fsh-generated/resources/StructureDefinition-family-member : 4 / 6 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-human-being-logical-model : 9 / 21 / 1
- /github/workspace/input/myig : 0 / 0 / 1
+ /github/workspace/input/myig : 4 / 0 / 1
 </table>
 == n/a ==
 WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be ig-cde-catalog
@@ -138,3 +138,7 @@ WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.diff
 WARNING: StructureDefinition/human-being-logical-model: StructureDefinition.differential.element[7]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
 ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-human-being-logical-model: URL Mismatch http://xxsomewhere.org/fhir/myig/StructureDefinition/human-being-logical-model vs http://example.com/fhir/example/StructureDefinition/human-being-logical-model
 == input/myig.xml ==
+ERROR: ImplementationGuide.where(url = 'http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig'): Conformance resource /github/workspace/input/myig.xml - the canonical URL (http://xxsomewhere.org/fhir/myig/ImplementationGuide/IG CDE-Catalog) does not match the URL (http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig)
+ERROR: ImplementationGuide.url: Resource id/url mismatch: IG CDE-Catalog/http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig
+ERROR: ImplementationGuide/IG CDE-Catalog: ImplementationGuide.id: Invalid Resource id: Invalid Characters
+ERROR: /github/workspace/input/myig: URL Mismatch http://xxsomewhere.org/fhir/myig/ImplementationGuide/IG CDE-Catalog vs http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig

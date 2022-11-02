@@ -5,9 +5,9 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig> a fhir:ImplementationGuide;
+<http://xxsomewhere.org/fhir/myig/ImplementationGuide/IG CDE-Catalog> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "xxexample.fhir.uv.myig"];
+  fhir:Resource.id [ fhir:value "IG CDE-Catalog"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CommonDataElementsCatalog_IG</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>Empty Implementation Guide for starting with Common Data Elements Catalog</p>\n</div></div>"
@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "Implementation Guide for Common Data Elements Catalog"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2022-11-02T08:45:38+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-11-02T08:59:34+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Masterthesis University Leipzig"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -806,7 +806,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig.ttl> a owl:Ontology;
+<http://xxsomewhere.org/fhir/myig/ImplementationGuide/IG CDE-Catalog.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "xxexample.fhir.uv.myig",
+  "id": "IG CDE-Catalog",
   "text": {
     "status": "extensions",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CommonDataElementsCatalog_IG</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>Empty Implementation Guide for starting with Common Data Elements Catalog</p>\n</div></div>"
@@ -11,7 +11,7 @@
   "title": "Implementation Guide for Common Data Elements Catalog",
   "status": "draft",
   "experimental": false,
-  "date": "2022-11-02T08:45:38+00:00",
+  "date": "2022-11-02T08:59:34+00:00",
   "publisher": "Masterthesis University Leipzig",
   "contact": [
     {

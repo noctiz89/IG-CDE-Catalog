@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = errors = 13, warn = 32, info = 0, 80 -->
+<!-- broken links = errors = 17, warn = 32, info = 0, 80 -->
 <head>
   <title>CommonDataElementsCatalog_IG : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,7 +36,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for CommonDataElementsCatalog_IG</h1>
- <p>Generated Wed Nov 02 08:45:49 UTC 2022, FHIR version 4.0.1 for ig-cde-catalog#0.1.0-test (canonical = <a href="http://xxsomewhere.org/fhir/myig">http://xxsomewhere.org/fhir/myig</a> (<a href="http://xxsomewhere.org/fhir/myig/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
+ <p>Generated Wed Nov 02 08:59:46 UTC 2022, FHIR version 4.0.1 for ig-cde-catalog#0.1.0-test (canonical = <a href="http://xxsomewhere.org/fhir/myig">http://xxsomewhere.org/fhir/myig</a> (<a href="http://xxsomewhere.org/fhir/myig/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.2.12</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = ig-cde-catalog, Canonical = http://xxsomewhere.org/fhir/myig</td></tr>
@@ -56,7 +56,7 @@
  <tr><td>Modifier Extensions:</td><td><span style="color: grey">(none)</span></td></tr>
  <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://xxsomewhere.org/fhir/myig (Problem #1 with package-list.json at http://xxsomewhere.org/fhir/myig: xxsomewhere.org)</td></tr>
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
- <tr><td>Summary:</td><td> errors = 13, warn = 32, info = 0, broken links = 80</td></tr>
+ <tr><td>Summary:</td><td> errors = 17, warn = 32, info = 0, broken links = 80</td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -70,6 +70,9 @@
    </tr>
    <tr style="background-color: #ffcccc">
      <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-human-being-logical-model"><b>/github/workspace/fsh-generated/resources/StructureDefinition-human-being-logical-model</b></a></td><td><b>9</b></td><td><b>21</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_input_myig"><b>/github/workspace/input/myig</b></a></td><td><b>4</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
 </table>
 <hr/>
@@ -473,6 +476,27 @@
      <td><b>fsh-generated/resources/StructureDefinition-human-being-logical-model</b></td><td><b>error</b></td><td title=""><b>URL Mismatch http://xxsomewhere.org/fhir/myig/StructureDefinition/human-being-logical-model vs http://example.com/fhir/example/StructureDefinition/human-being-logical-model</b></td>
    </tr>
 </table>
+<hr/>
+<a name="_github_workspace_input_myig"> </a>
+<h2><a href="ImplementationGuide-IG CDE-Catalog.html">input/myig.xml</a> <span id="svi3" class="toggle" onclick="toggle('vi3')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi3')">(0)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi3"></div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.where(url = 'http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource /github/workspace/input/myig.xml - the canonical URL (http://xxsomewhere.org/fhir/myig/ImplementationGuide/IG CDE-Catalog) does not match the URL (http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.url</b></td><td><b>error</b></td><td title="RESOURCE_ID_MISMATCH"><b>Resource id/url mismatch: IG CDE-Catalog/http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.id</b></td><td><b>error</b></td><td title="Resource_RES_ID_Malformed_Chars"><b>Invalid Resource id: Invalid Characters</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>input/myig</b></td><td><b>error</b></td><td title=""><b>URL Mismatch http://xxsomewhere.org/fhir/myig/ImplementationGuide/IG CDE-Catalog vs http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</b></td>
+   </tr>
+</table>
 <a name="suppressed"> </a>
 <p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
 <p>No suppressed messsages</p><a name="sorted"> </a>
@@ -497,6 +521,25 @@
    </tr>
    <tr style="background-color: #ffeeee">
      <td><a href="StructureDefinition-human-being-logical-model.html">fsh-generated/resources/StructureDefinition-human-being-logical-model.json</a></td><td><b>Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-human-being-logical-model.json - the canonical URL (http://xxsomewhere.org/fhir/myig/StructureDefinition/human-being-logical-model) does not match the URL (http://example.com/fhir/example/StructureDefinition/human-being-logical-model)</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-IG CDE-Catalog.html">input/myig.xml</a></td><td><b>Conformance resource /github/workspace/input/myig.xml - the canonical URL (http://xxsomewhere.org/fhir/myig/ImplementationGuide/IG CDE-Catalog) does not match the URL (http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="RESOURCE_ID_MISMATCH"> </a>
+<h2>RESOURCE_ID_MISMATCH</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-IG CDE-Catalog.html">input/myig.xml</a></td><td><b>Resource id/url mismatch: IG CDE-Catalog/http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Resource_RES_ID_Malformed_Chars"> </a>
+<h2>Resource_RES_ID_Malformed_Chars</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-IG CDE-Catalog.html">input/myig.xml</a></td><td><b>Invalid Resource id: Invalid Characters</b></td>
    </tr>
 </table>
 <hr/>

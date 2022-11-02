@@ -14,7 +14,7 @@
     "name": "Human"
   },
   {
-    "id": "xxexample.fhir.uv.myig",
+    "id": "IG CDE-Catalog",
     "type": "ImplementationGuide",
     "url": "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
     "version": "0.1.0-test",
