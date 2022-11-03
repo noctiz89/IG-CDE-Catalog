@@ -52,23 +52,8 @@
         <generation value="html"/>
       </page>
       <page>
-        <nameUrl value="object.html"/>
-        <title value="Gegenstand"/>
-        <generation value="html"/>
-      </page>
-      <page>
-        <nameUrl value="problem.html"/>
-        <title value="Problemstellung"/>
-        <generation value="html"/>
-      </page>
-      <page>
-        <nameUrl value="motivation.html"/>
-        <title value="Motivation"/>
-        <generation value="html"/>
-      </page>
-      <page>
-        <nameUrl value="aim.html"/>
-        <title value="Zielsetzung"/>
+        <nameUrl value="background.html"/>
+        <title value="Hintergrund"/>
         <generation value="html"/>
       </page>
     <!-- change history page -->

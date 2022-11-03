@@ -12,19 +12,10 @@
 		</a>
 		<ul class="dropdown-menu">
 			<li>
-				<a href="object.html">Gegenstand</a>
-			</li>
-		</ul>
-		<ul class="dropdown-menu">
-			<li>
-				<a href="problem.html">Problemstellung</a>
-			</li>
-		</ul>
-			<li>
-				<a href="motivation.html">Motivation</a>		
-			</li>
-			<li>
-				<a href="aim.html">Zielsetzung</a>
+				<a href="background.html">Gegenstand</a>
+				<a href="background.html">Problemstellung</a>
+				<a href="background.html">Motivation</a>		
+				<a href="background.html">Zielsetzung</a>
 			</li>
 		</ul>
 	</li>
