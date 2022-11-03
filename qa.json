@@ -3,7 +3,7 @@
   "name": "CommonDataElementsCatalog_IG",
   "package-id": "ig-cde-catalog",
   "ig-ver": "0.1.0-test",
-  "date": "Thu, 03 Nov, 2022 09:00:01 +0000",
+  "date": "Thu, 03 Nov, 2022 09:26:23 +0000",
   "errs": 17,
   "warnings": 32,
   "hints": 0,

@@ -3,7 +3,7 @@
 
 err = 17, warn = 32, info = 0
 IG Publisher Version: 1.2.12
-Generated Thu Nov 03 09:00:11 UTC 2022. FHIR version 4.0.1 for ig-cde-catalog#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
+Generated Thu Nov 03 09:26:36 UTC 2022. FHIR version 4.0.1 for ig-cde-catalog#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
  Build Errors : 0 / 5 / 0
  /github/workspace/fsh-generated/resources/StructureDefinition-family-member : 4 / 6 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-human-being-logical-model : 9 / 21 / 1

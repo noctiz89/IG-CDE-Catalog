@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "Implementation Guide for Common Data Elements Catalog"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2022-11-03T09:00:01+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-11-03T09:26:23+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Masterthesis University Leipzig"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -730,43 +730,13 @@
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
-           fhir:Extension.valueUrl [ fhir:value "object.html" ]
+           fhir:Extension.valueUrl [ fhir:value "background.html" ]
          ];
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "object.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Gegenstand" ];
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "background.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Hintergrund" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
        ], [
          fhir:index 2;
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
-           fhir:Extension.valueUrl [ fhir:value "problem.html" ]
-         ];
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "problem.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Problemstellung" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
-       ], [
-         fhir:index 3;
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
-           fhir:Extension.valueUrl [ fhir:value "motivation.html" ]
-         ];
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "motivation.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Motivation" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
-       ], [
-         fhir:index 4;
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
-           fhir:Extension.valueUrl [ fhir:value "aim.html" ]
-         ];
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "aim.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Zielsetzung" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
-       ], [
-         fhir:index 5;
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
