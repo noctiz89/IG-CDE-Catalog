@@ -11,7 +11,7 @@
   "title": "Implementation Guide for Common Data Elements Catalog",
   "status": "draft",
   "experimental": false,
-  "date": "2022-11-02T09:54:31+00:00",
+  "date": "2022-11-03T09:00:01+00:00",
   "publisher": "Masterthesis University Leipzig",
   "contact": [
     {
@@ -785,6 +785,39 @@
           ],
           "nameUrl": "object.html",
           "title": "Gegenstand",
+          "generation": "html"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "problem.html"
+            }
+          ],
+          "nameUrl": "problem.html",
+          "title": "Problemstellung",
+          "generation": "html"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "motivation.html"
+            }
+          ],
+          "nameUrl": "motivation.html",
+          "title": "Motivation",
+          "generation": "html"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "aim.html"
+            }
+          ],
+          "nameUrl": "aim.html",
+          "title": "Zielsetzung",
           "generation": "html"
         },
         {
