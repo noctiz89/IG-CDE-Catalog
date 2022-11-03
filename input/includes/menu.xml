@@ -6,16 +6,19 @@
 	<li>
 		<a href="toc.html">Inhaltsverzeichnis</a>
 	</li>
+	<li>
+		<a href="background.html">Hintergrund</a>
+	</li>
 
 	<li class="dropdown">
-		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Hintergrund<b class="caret"></b>
+		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Sonstiges<b class="caret"></b>
 		</a>
 		<ul class="dropdown-menu">
 			<li>
-				<a href="background.html">Gegenstand</a>
-				<a href="background.html">Problemstellung</a>
-				<a href="background.html">Motivation</a>		
-				<a href="background.html">Zielsetzung</a>
+				<a href="background.html">sonst1</a>
+				<a href="background.html">sonst2</a>
+				<a href="background.html">sonst3</a>		
+				<a href="background.html">sonst4</a>
 			</li>
 		</ul>
 	</li>
